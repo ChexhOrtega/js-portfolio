@@ -1,4 +1,6 @@
+import './styles/main.css';
 import Template from './templates/Template.js';
+
 console.log('hola');
 
 (async function App() {

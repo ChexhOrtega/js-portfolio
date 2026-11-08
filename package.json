@@ -4,7 +4,9 @@
   "description": "A minimal portfolio with Vanilla JavaScript",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode production",
+    "dev": "webpack --mode development"
   },
   "repository": {
     "type": "git",
@@ -20,5 +22,12 @@
   "bugs": {
     "url": "https://github.com/gndx/js-portfolio/issues"
   },
-  "homepage": "https://github.com/gndx/js-portfolio#readme"
+  "homepage": "https://github.com/gndx/js-portfolio#readme",
+  "devDependencies": {
+    "css-loader": "^7.1.5",
+    "html-webpack-plugin": "^5.6.8",
+    "mini-css-extract-plugin": "^2.10.2",
+    "webpack": "^5.111.1",
+    "webpack-cli": "^7.2.3"
+  }
 }
